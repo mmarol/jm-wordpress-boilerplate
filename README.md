@@ -1,10 +1,7 @@
-# Jay Marol’s starter theme.
+# Jay Marol’s starter theme
 
-This WordPress install is done through Local by Flywheel and has a few things already set up:
+This is the wp-contents folder of a WordPress install is done through Local by Flywheel, and has a few things already set up:
 
-- Basic file structure based on the Timber starter theme
-- Gulp setup for SCSS and JS compiling as well as BrowserSync reloading
-- Relevant node packages
 - Basic plugins installed in [plugins/](../../plugins/). These plugins include:
   - [Admin Columns](https://wordpress.org/plugins/codepress-admin-columns/)
   - [Admin Menu Editor](https://wordpress.org/plugins/admin-menu-editor/)
@@ -17,11 +14,14 @@ This WordPress install is done through Local by Flywheel and has a few things al
 - An example custom post type. These are defined in [lib/](./lib/) and registered in [functions.php](./functions.php). The post type is set up to use [page-example-page.php](./page-example-page.php) as the archive template. This can be changed in [lib/custom-types.php](./lib/custom-types.php) in the `rewrite` rule.
 - An ACF options page for both the header and footer. This can be disabled in [functions.php](./functions.php) on lines 76 and 106-129.
 - A reorganized WordPress admin menu order.
+- Custom theme based on the Timber starter theme
+- Gulp setup for SCSS and JS compiling as well as BrowserSync reloading
+- Relevant node packages
 
 ## First things first
 
-1. Run `npm install` to install all relevant node packages
-2. Install [Composer](https://getcomposer.org/download/) in this theme folder if you do not have it installed already.
+1. Within the theme, run `npm install` to install all relevant node packages
+2. Install [Composer](https://getcomposer.org/download/) if you do not have it installed already.
 3. Run `composer require timber/timber` to install Timber.
 4. Change the theme information in [style.css](./style.css) and replace [screenshot.png](./screenshot.png).
 5. Activate the theme in the CMS.
