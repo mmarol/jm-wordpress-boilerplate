@@ -1,0 +1,16 @@
+# Themes
+/themes/twenty*/
+/themes/index.php
+/themes/**/node_modules
+
+# Plugins
+
+# Uploads
+/uploads/
+
+# Misc
+/index.php
+/languages
+*.log
+.DS_Store
+node_modules

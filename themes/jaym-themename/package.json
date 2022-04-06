@@ -1,0 +1,40 @@
+{
+	"name": "jaym-themename",
+	"version": "0.1.0",
+	"description": "This is a repository for the ___ website",
+	"author": "Mrityunjay Marol",
+	"private": true,
+	"devDependencies": {
+		"@babel/core": "^7.17.8",
+		"@babel/preset-env": "^7.16.11",
+		"@babel/register": "^7.17.7",
+		"@babel/runtime": "^7.17.8",
+		"autoprefixer": "^10.4.4",
+		"babel-loader": "^8.2.4",
+		"browser-sync": "^2.27.9",
+		"del": "^6.0.0",
+		"gulp": "^4.0.2",
+		"gulp-babel": "^8.0.0",
+		"gulp-browserify": "^0.5.1",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-if": "^3.0.0",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-postcss": "^9.0.1",
+		"gulp-sass": "^5.1.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"gulp-uglify": "^3.0.2",
+		"imagesloaded": "^5.0.0",
+		"jquery-bridget": "^3.0.1",
+		"masonry-layout": "^4.2.2",
+		"postcss": "^8.4.12",
+		"sass": "^1.49.9",
+		"vinyl-named": "^1.1.0",
+		"webpack-stream": "^7.0.0",
+		"yargs": "^17.4.0"
+	},
+	"scripts": {
+		"start": "gulp",
+		"build": "gulp --prod"
+	}
+}
