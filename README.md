@@ -1,6 +1,6 @@
 # Jay Marol’s starter theme
 
-This is the wp-contents folder of a WordPress install is done through Local by Flywheel, and has a few things already set up:
+This is the wp-contents folder of a WordPress install done through Local by Flywheel, and has a few things already set up:
 
 - Basic plugins installed in [plugins/](../../plugins/). These plugins include:
   - [Admin Columns](https://wordpress.org/plugins/codepress-admin-columns/)
